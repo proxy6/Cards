@@ -340,8 +340,6 @@ module.exports = {
 
                                 <div class='col num12'
                                     style='min-width: 320px; max-width: 665px; display: table-cell; vertical-align: top; width: 665px;'>
-                                    <img align='left' src='https://backoffice.afripayx.com/img/login.fa76d5e3.png'
-                                        style="height: 50px;padding-left: 30px;padding-top: 10px;" alt='AfriPayX' />
 
                                     <div style='width:100% !important;'>
 
@@ -595,7 +593,7 @@ module.exports = {
         });
         transporter.sendMail(
           {
-            from: '"BossKad" <bosskard21@gmail.com>',
+            from: '"Bix Card" <testemail@gmail.com>',
             to: `${data.email}`,
             subject: `${data.title}`,
             html: output, // html body
@@ -960,8 +958,6 @@ module.exports = {
 
                             <div class='col num12'
                                 style='min-width: 320px; max-width: 665px; display: table-cell; vertical-align: top; width: 665px;'>
-                                <img align='left' src='https://backoffice.afripayx.com/img/login.fa76d5e3.png'
-                                    style="height: 50px;padding-left: 30px;padding-top: 10px;" alt='AfriPayX' />
 
                                 <div style='width:100% !important;'>
 
@@ -1215,7 +1211,7 @@ module.exports = {
         });
         transporter.sendMail(
           {
-            from: '"AfripayX" <bosskard21@gmail.com>',
+            from: '"Test Person" <testemail@gmail.com>',
             to: `${results[0].email}`,
             subject: `${data.title}`,
             html: output, // html body

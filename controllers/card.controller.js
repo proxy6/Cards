@@ -112,7 +112,7 @@ else {
     },
     getShareQRCode: (req, res, next)=>{
         let cardId = req.body
-        let link = `http://bosskad.herokuapp.com/card/${cardId}`
+        let link = `http://bixxcard.herokuapp.com/card/${cardId}`
         qr.toDataURL(link, (err, url)=>{
             if(err) res.status(500).json({success: 0, data: "Error Generating QRcode"})
             res.status(500).json({success: 1, message: "Card URL Generated", data: url})

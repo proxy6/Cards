@@ -7,9 +7,6 @@ const {Country} = require('country-state-city-js')
 const { State } = require('country-state-city-js')
 const { City } = require('country-state-city-js')
 const { emailNotification } = require('../utils/notifications');
-const { Wallet } = require('../models/wallet/wallets.model');
-const { UserWallet } = require('../models/wallet/userWallet.model');
-const {createQtajWallet, createUsdWallet, createTajiWallet} =  require('./wallet.controller')
 
 const userController = {
   getAll: (req, res, next) => {

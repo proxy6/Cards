@@ -37,8 +37,8 @@ module.exports = {
             
             const data = {
                 email,
-                title: 'Your Business Was Listed on BossKard',
-                message: `Your Business ${busName} was Listed on BossKad. Click on this link to approve this business`,
+                title: 'Your Business Was Listed on Bix Card',
+                message: `Your Business ${busName} was Listed on Bix Card. Click on this link to approve this business`,
                 ...(user && {
                     user_id: user._id,
                     ptoken: user.phonetoken
